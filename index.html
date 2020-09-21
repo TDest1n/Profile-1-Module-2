@@ -1,157 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" type="text/css" >
+  <title>Portfolio</title>
 </head>
+
 <body>
-
-      <header>
-          <h1>Terrance IvyBrown</h1>
-        <div class="logo"></div>
-        <nav>
-			<ul id="menu">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-  
-      <main>
-          <div class="wrapper">
-  
-              <article id="home">
-                  <div class='group'>
-                      <div class='item'>
-                         
-                        <img src="images/self3.jpg" alt="Terrance Photo" class="image-style" width = 400> 
-                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    </div>
-          
-                  <div class='item'>
-            <p class="intro">Good Day! I am Terrance IvyBrown</p>
-            <div id="div1" class="fa"></div>
-
-<script>
-function hand() {
-  var a;
-  a = document.getElementById("div1");
-  a.innerHTML = "&#xf25a;";
-  setTimeout(function () {
-      a.innerHTML = "&#xf256;";
-    }, 500);
-  setTimeout(function () {
-      a.innerHTML = "&#xf259;";
-    }, 1000);
-  setTimeout(function () {
-      a.innerHTML = "&#xf256;";
-    }, 1500);
-}
-hand();
-setInterval(hand, 2000);
-</script>
-
-           
-                      <p>Id like time out to show give you some interesting information about myself so you are interested in getting to know me better. I'll share more here on what I do professional so that people that are looking for those skills will want to hire me.</p>
-                        <p>Sometimes when I am out I like to come up with new elecments to have a more creative time making projects.</p> 
-                  </div>
-              </div>
-        </article>
-          </div>
-  
-        <article id="about">
-          <div class="wrapper">
-              <h2>About me</h2>
-
-    
-
-              <div class='group'>
-                  <div class='item-double'>
-            <p>Use this space to explain who you are in greater detail to others in a professional stance. Share what you enjoy about coding and why.</p>
-  
-            <p>When I'm not coding, I am out and about getting caught up on good excersise!!</p>
-                  </div> 
-              <div class='item'>
-  <img src="images/self4.jpg" alt="standingguard" class="rounded" width = 100> 
-                      
-                  </div>
-              </div>
+  <div class="container">
+    <div class="main">
+      <section id="main">
+        <div class="main-image">
+          <img src="images/self.png" class="self">
         </div>
-        </article>
-  
-
-        <hr>
-
-
-  <div class="wrapper">
-        <article id="portfolio">
-        <h2>Portfolio</h2>
-              <div class='group'>
-                  <div class='item'>
-            <img src="images/placeholder.png" alt="Quiz App Screenshot" class="rounded">
-            <h3>Quiz App</h3>
-                      <p>This is a description of the Quiz App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                  </div>
-                  <div class='item'>
-            <img src="images/placeholder.png" alt="Bookmark App Screenshot" class="rounded">
-            <h3>Bookmark App</h3>
-                      <p>This is a description of the Bookmark App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                  </div>
-              </div>
-        <div class='group'>
-                  <div class='item'>
-            <img src="images/placeholder.png" alt="Pet App Screenshot" class="rounded">
-            <h3>Pet Appointment App</h3>
-                      <p>This is a description of the Pet Appointment App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                  </div>
-                  <div class='item'>
-
-                      <hr class = 'hr'>
-
-  
-  
-  
-        <article id="contact">
-           <h2>Contact</h2>
-              <div class='group'>
-                  <div class='item'>
-                <p>Phone #: 832-886-9635</p>
-                 <p>Email: ivybrownt@gmail.com<p>
-           <p>Linkedin: <a href="https://www.linkedin.com/in/terrance-ivybrown-60b0588b"></a></p>
-           <div class="group">
-            <div class="item">
-            <form action="#" method="POST">
-      <label for="user-name">Name:</label>
-      <input id="user-name" type="text" name="name">
-
-      <label for="user-email">Email:</label>
-      <input id="user-email" type="text" name="email">
-
-      <label for="user-message">Message:</label>
-      <textarea id="user-message" name="message"></textarea>
-      <button type="submit">Submit</button>
-    </form>
+        <div class="social">
+          <div class="intro">
+            <header>
+              <h1>Terrance IvyBrown</h1>
+            </header>
+            <div class="social-links">
+              <span><a href="https://www.linkedin.com/in/terrance-ivybrown-60b0588b" target="_blank" class="fa">&#xf08c;</a></span>
+              <span><a href="mailto:ivybrownt@gmail.com" class="fa">&#xf0e0;</a></span>
+              <span><a href="https://github.com/TDest1n" target="_blank" class="fa">&#xf09b;</a></span>
+              <span><a href="tel:832-886-9635" class="fa" >&#xf095;</a></span>
             </div>
-            
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=houston%20texas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>                  
+          </div>
 
-            </div>              
-          <footer>
-        <p>© Terrance IvyBrown</p>
-      </footer>
+          <nav>
+            <ul id="menu">
+              <li><a href="#intro">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </div>
 
-          </article>
-         </div>
+    <div class="portfolio">
+      <section id="intro">
+        <p>Good Day! <span id="div1" class="fa"></span></p>
+        <p><strong>I am Terrance IvyBrown</strong></p>
+        <p>
+          I am a passionate software developer, based in the United States. I am a technology enthusiast and an
+          ardent learner. I love to learn something new everyday and add value to lives and businesses.
+        </p>
+        <p>
+          When not working, I can be found chatting with friends or playing video games.
+        </p>
+      </section>
+      <!-- <hr/> -->
+      <section id="about">
+        <h2>About me</h2>
+        <article>
+          <div class="about-me">
+            <p>
+              I enjoy learning and meeting new people to expand my knowledge on culture, technology, and life in general.
+              I am currently undergoing Software Engineering Bootcamp to help accelerate my mastery of the Software Development.
+              I love to code and whenever I am not working, I can be found playing video games or chatting with friends.
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="images/about.png">
+          </div>
+        </article>
+      </section>
+      <hr/>
+      <section id="projects">
+        <h2>Projects</h2>
+        <article>
+          <div id="card">
+            <div class="info">
+              <h3><a href="https://zompocalypse.github.io/quiz_app/" target="_blank">Quiz App</a></h3>
+              <p>
+                This is a web application that allow users to test their general knowledge or understanding of pokemon (hunting and earning badges criteria, as well as various pokemon types).
+                It's a five-multiple choice questions with one right answer for each question, and
+                you're required to get the five questions correctly in order to be considered a pokemon master.
+                <a style="text-decoration: underline;" href="https://thinkful-ei-rabbit.github.io/terrance-bookmark-app/dist/" target="_blank">here</a> to use the app.
+              </p>
+            </div>
+            <div>
+              <img src="images/quiz-app.png">
+            </div>
+          </div>
+          <div id="card">
+            <div class="info">
+              <h3><a href="https://thinkful-ei-rabbit.github.io/terrance-bookmark-app/dist/" target="_blank">Bookmark App</a></h3>
+              <p>
+                This is a web application that allow users to bookmark web pages and assign star ratings (1 - 5) to the webpage.
+                It is built with jQuery (a rich and powerful JavaScript library for interaction with web browsers), Fetch API,
+                HTML, and CSS. Click <a style="text-decoration: underline;" href="https://thinkful-ei-rabbit.github.io/terrance-bookmark-app/dist/" target="_blank">here</a> to use the app.
+              </p>
+            </div>
+            <div>
+              <img src="images/bookmarks-app.png">
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr/>
+      <section id="contact">
+        <h2>Contact</h2>
+        <article>
+          <div class="contact-form">
+            <form action="#" method="POST">
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name">
 
-</main>
-  
-      <script src="script.js">
-      </script>
-  </body> 
-  </html>
-    
+              <label for="email">Email:</label>
+              <input id="email" type="text" name="email">
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.5951920341226!2d-95.37199148489155!3d29.760426681986644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf4e0f087b03%3A0xb8fd941c34ffdf9!2sTexas%20Premier%20Images%20Inc.!5e0!3m2!1sen!2sng!4v1600274063979!5m2!1sen!2sng"
+              width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+  <footer>
+    <p>© Terrance IvyBrown</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
